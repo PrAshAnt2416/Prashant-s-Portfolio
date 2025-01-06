@@ -216,7 +216,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/PrAshAnt2416/Car-Showcase.git",
   },
   {
     name: "Real Time-Text Collaborator ",
@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/PrAshAnt2416/Real-Time-CollabShare.git",
   },
   {
     name: "Todo-List",
