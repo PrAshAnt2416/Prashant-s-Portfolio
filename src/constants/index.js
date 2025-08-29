@@ -23,7 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  clumpcoder,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -119,7 +119,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Clumpcoder",
-    icon: carrent,
+    icon: shopify,
     iconBg: "#383E56",
     date: "September 2024 - present",
     points: [
