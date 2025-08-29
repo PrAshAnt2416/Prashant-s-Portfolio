@@ -25,11 +25,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* Reduce animation duration by passing a prop or updating ComputersCanvas */}
+      <ComputersCanvas animationDuration={0.8} />
 
-      <div className='absolute xs:bottom-0 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-0 bottom-10 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[32px] h-[58px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2 '>
             <motion.div
               animate={{
                 y: [0, 24, 0],
