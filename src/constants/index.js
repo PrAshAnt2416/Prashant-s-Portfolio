@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  clumpcoder,
   
 } from "../assets";
 
@@ -119,7 +120,7 @@ const experiences = [
   {
     title: "React.js Developer",
     company_name: "Clumpcoder",
-    icon: shopify,
+    icon: clumpcoder,
     iconBg: "#383E56",
     date: "September 2024 - present",
     points: [
@@ -240,7 +241,7 @@ const projects = [
     image: jobit,
     source_code_link: "https://github.com/PrAshAnt2416/Real-Time-CollabShare.git",
   },
-  {
+  /*{
     name: "Todo-List",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -260,7 +261,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
-  },
+  },*/
 ];
 
 export { services, technologies, experiences, testimonials, projects };
