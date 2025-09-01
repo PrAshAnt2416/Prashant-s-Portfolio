@@ -42,7 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="src/assets/logo2.png" alt="React Image" className='w-8 h-8 object-contain' />
+          <img src="public/logo2.png" alt="React Image" className='w-8 h-8 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex flex-col'>
             Prashant's Portfolio
             <span className='text-[#cf88f7] text-[12px] font-normal ml-16'>Create.Inspire.Code</span>
